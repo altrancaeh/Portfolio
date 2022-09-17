@@ -1,0 +1,34 @@
+Para isso funcionar, ele utilizou duas imagens de fundo. Um para o topo e outro para o rodapé. Eu não tive
+acesso a essa imagem, então preferi colocar um bg direto no main e deixar o resto do fundo em preto.
+
+
+.main::before {
+    content: '';
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 140vw;
+    height: 100vw;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main::after {
+    content: '';
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 140vw;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transform: rotate(180deg);
+}
