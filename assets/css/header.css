@@ -15,7 +15,7 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('assets/img/icons/dots-icons.svg');
+    background-image: url('../img/icons/dots-icons.svg');
 }
 
 .header .photo {
@@ -58,19 +58,19 @@
 }
 
 .information .job::before {
-    background-image: url('assets/img/icons/linkedin-icon.svg');
+    background-image: url('../img/icons/linkedin-icon.svg');
 }
 
 .information .location::before {
-    background-image: url('assets/img/icons/location-icon.svg');
+    background-image: url('../img/icons/location-icon.svg');
 }
 
 .information .phone::before {
-    background-image: url('assets/img/icons/whatsapp-icon.svg');
+    background-image: url('../img/icons/whatsapp-icon.svg');
 }
 
 .information .email::before {
-    background-image: url('assets/img/icons/email-icon.svg');
+    background-image: url('../img/icons/email-icon.svg');
 }
 
 @media only screen and (min-width: 768px) {
